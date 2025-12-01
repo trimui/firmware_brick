@@ -1,5 +1,21 @@
 # firmware_brick
 Firmware release for TG3040 Brick
+
+# Firmware version: 1.1.1 - 20251126
+=================================
+1. Fix main grid style status saving issue.
+2. Fix the favorites crash issue when deleting an item from the list.
+3. Fix the SSID and password issues with special characters, fix the hotspot empty password issue.
+4. Reset Wi-Fi passwords when 'factory reset'.
+5. Add keytone ON/OFF setting.
+6. Fix occasional deadlocks when coming back from any apps to Main UI.
+7. Fix ARISC firmware for the occasional not being able to start up when USB plugged and force poweroff.
+   (the battery needs to be drained when the problem occurs).
+8. Add SSH support.
+9. Fix OSD layout issue 'last widget does not show'.
+10. Fix language issue 'device crashed when an incorrect lang file was used'.
+11. Fix BGM toggle issue 'BGM will still turn on when toggle was set to OFF and then suspend/wakeup'.
+    
 # Firmware version: 1.1.0 - 20250610
 =================================
 1. Add theme selector preview image (pop-up display)
